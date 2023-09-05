@@ -17,6 +17,28 @@ public enum ResponseCode {
 
     ;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     private final String message;
     private final int code;
 
