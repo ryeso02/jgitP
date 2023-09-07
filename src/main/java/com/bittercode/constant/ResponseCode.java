@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Optional;
 
 public enum ResponseCode {
-
+    // Testing for
     SUCCESS(200, "OK"),
     FAILURE(422, "Unprocessible Entity, Failed to Process"),
     PAGE_NOT_FOUND(404, "The Page You are Searching For is Not available"),
@@ -17,28 +17,6 @@ public enum ResponseCode {
 
     ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     private final String message;
     private final int code;
 
