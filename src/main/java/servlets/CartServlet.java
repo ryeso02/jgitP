@@ -21,7 +21,7 @@ import com.bittercode.service.impl.BookServiceImpl;
 import com.bittercode.util.StoreUtil;
 
 public class CartServlet extends HttpServlet {
-
+    // Taging and commit
     BookService bookService = new BookServiceImpl();
 
     public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
