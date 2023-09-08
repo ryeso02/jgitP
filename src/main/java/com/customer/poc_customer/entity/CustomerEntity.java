@@ -14,10 +14,10 @@ public class CustomerEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	private String name;
 	private String address;
 	private int age;
 	private String firstName;
+	private String lastName;
 
 	public Long getId() {
 		return id;
